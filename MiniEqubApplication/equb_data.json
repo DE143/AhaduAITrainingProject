@@ -57,9 +57,33 @@
             }
           ],
           "lottery_selected": false
+        },
+        {
+          "round_number": 1,
+          "cycle_number": 2,
+          "date": "2026-04-02 11:42:49",
+          "recipient_id": "member_3_20260402094835",
+          "recipient_name": "almaz",
+          "amount_per_member": 15000.0,
+          "total_payout": 30000.0,
+          "contributions": [
+            {
+              "member_id": "member_3_20260402094835",
+              "member_name": "almaz",
+              "amount": 15000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_4_20260402094848",
+              "member_name": "abebech",
+              "amount": 15000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
         }
       ],
-      "current_round": 0,
+      "current_round": 1,
       "cycle_number": 2,
       "created_date": "2026-04-02 09:46:35"
     },
@@ -76,6 +100,491 @@
       "current_round": 0,
       "cycle_number": 1,
       "created_date": "2026-04-02 09:46:58"
+    },
+    "group_3_20260402145517": {
+      "id": "group_3_20260402145517",
+      "name": "AhaduTeam",
+      "fixed_amount": 5000.0,
+      "frequency": "Monthly",
+      "member_ids": [
+        "member_6_20260402145549",
+        "member_7_20260402145626",
+        "member_8_20260402145646",
+        "member_9_20260402145701"
+      ],
+      "rounds": [
+        {
+          "round_number": 1,
+          "cycle_number": 1,
+          "date": "2026-04-02 14:58:19",
+          "recipient_id": "member_9_20260402145701",
+          "recipient_name": "dagm",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 2,
+          "cycle_number": 1,
+          "date": "2026-04-02 14:58:52",
+          "recipient_id": "member_8_20260402145646",
+          "recipient_name": "dawit",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 3,
+          "cycle_number": 1,
+          "date": "2026-04-02 14:59:11",
+          "recipient_id": "member_6_20260402145549",
+          "recipient_name": "derese",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 4,
+          "cycle_number": 1,
+          "date": "2026-04-02 14:59:22",
+          "recipient_id": "member_7_20260402145626",
+          "recipient_name": "Gedefaye",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 1,
+          "cycle_number": 2,
+          "date": "2026-04-02 14:59:57",
+          "recipient_id": "member_8_20260402145646",
+          "recipient_name": "dawit",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 2,
+          "cycle_number": 2,
+          "date": "2026-04-02 15:00:18",
+          "recipient_id": "member_9_20260402145701",
+          "recipient_name": "dagm",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 3,
+          "cycle_number": 2,
+          "date": "2026-04-02 15:00:26",
+          "recipient_id": "member_6_20260402145549",
+          "recipient_name": "derese",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 4,
+          "cycle_number": 2,
+          "date": "2026-04-02 15:00:32",
+          "recipient_id": "member_7_20260402145626",
+          "recipient_name": "Gedefaye",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 1,
+          "cycle_number": 3,
+          "date": "2026-04-02 15:00:45",
+          "recipient_id": "member_8_20260402145646",
+          "recipient_name": "dawit",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 2,
+          "cycle_number": 3,
+          "date": "2026-04-02 15:00:52",
+          "recipient_id": "member_6_20260402145549",
+          "recipient_name": "derese",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 3,
+          "cycle_number": 3,
+          "date": "2026-04-02 15:01:02",
+          "recipient_id": "member_9_20260402145701",
+          "recipient_name": "dagm",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 4,
+          "cycle_number": 3,
+          "date": "2026-04-02 15:01:09",
+          "recipient_id": "member_7_20260402145626",
+          "recipient_name": "Gedefaye",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 1,
+          "cycle_number": 4,
+          "date": "2026-04-02 15:01:22",
+          "recipient_id": "member_7_20260402145626",
+          "recipient_name": "Gedefaye",
+          "amount_per_member": 5000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_6_20260402145549",
+              "member_name": "derese",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_7_20260402145626",
+              "member_name": "Gedefaye",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_8_20260402145646",
+              "member_name": "dawit",
+              "amount": 5000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_9_20260402145701",
+              "member_name": "dagm",
+              "amount": 5000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        }
+      ],
+      "current_round": 1,
+      "cycle_number": 4,
+      "created_date": "2026-04-02 14:55:17"
     }
   },
   "members": {
@@ -116,10 +625,10 @@
       "email": "",
       "group_memberships": {
         "group_1_20260402094635": {
-          "has_received": false,
-          "received_round": null,
-          "total_contributed": 30000.0,
-          "total_received": 30000.0,
+          "has_received": true,
+          "received_round": 1,
+          "total_contributed": 45000.0,
+          "total_received": 60000.0,
           "joined_date": "2026-04-02 09:48:35"
         }
       }
@@ -133,9 +642,76 @@
         "group_1_20260402094635": {
           "has_received": false,
           "received_round": null,
-          "total_contributed": 30000.0,
+          "total_contributed": 45000.0,
           "total_received": 30000.0,
           "joined_date": "2026-04-02 09:48:48"
+        }
+      }
+    },
+    "member_5_20260402145539": {
+      "id": "member_5_20260402145539",
+      "name": "gedefeye",
+      "phone": "0978787",
+      "email": "",
+      "group_memberships": {}
+    },
+    "member_6_20260402145549": {
+      "id": "member_6_20260402145549",
+      "name": "derese",
+      "phone": "0987854",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260402145517": {
+          "has_received": false,
+          "received_round": null,
+          "total_contributed": 65000.0,
+          "total_received": 60000.0,
+          "joined_date": "2026-04-02 14:55:49"
+        }
+      }
+    },
+    "member_7_20260402145626": {
+      "id": "member_7_20260402145626",
+      "name": "Gedefaye",
+      "phone": "0920646207",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260402145517": {
+          "has_received": true,
+          "received_round": 1,
+          "total_contributed": 65000.0,
+          "total_received": 80000.0,
+          "joined_date": "2026-04-02 14:56:26"
+        }
+      }
+    },
+    "member_8_20260402145646": {
+      "id": "member_8_20260402145646",
+      "name": "dawit",
+      "phone": "0988787",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260402145517": {
+          "has_received": false,
+          "received_round": null,
+          "total_contributed": 65000.0,
+          "total_received": 60000.0,
+          "joined_date": "2026-04-02 14:56:46"
+        }
+      }
+    },
+    "member_9_20260402145701": {
+      "id": "member_9_20260402145701",
+      "name": "dagm",
+      "phone": "09",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260402145517": {
+          "has_received": false,
+          "received_round": null,
+          "total_contributed": 65000.0,
+          "total_received": 60000.0,
+          "joined_date": "2026-04-02 14:57:01"
         }
       }
     }
