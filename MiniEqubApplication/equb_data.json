@@ -76,6 +76,69 @@
       "current_round": 0,
       "cycle_number": 1,
       "created_date": "2026-04-02 09:46:58"
+    },
+    "group_3_20260408065609": {
+      "id": "group_3_20260408065609",
+      "name": "dawit",
+      "fixed_amount": 10000.0,
+      "frequency": "Monthly",
+      "member_ids": [
+        "member_5_20260408065635",
+        "member_6_20260408065644"
+      ],
+      "rounds": [
+        {
+          "round_number": 1,
+          "cycle_number": 1,
+          "date": "2026-04-08 06:57:19",
+          "recipient_id": "member_6_20260408065644",
+          "recipient_name": "derese",
+          "amount_per_member": 10000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_5_20260408065635",
+              "member_name": "dawit",
+              "amount": 10000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_6_20260408065644",
+              "member_name": "derese",
+              "amount": 10000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        },
+        {
+          "round_number": 2,
+          "cycle_number": 1,
+          "date": "2026-04-08 06:57:40",
+          "recipient_id": "member_5_20260408065635",
+          "recipient_name": "dawit",
+          "amount_per_member": 10000.0,
+          "total_payout": 20000.0,
+          "contributions": [
+            {
+              "member_id": "member_5_20260408065635",
+              "member_name": "dawit",
+              "amount": 10000.0,
+              "paid": false
+            },
+            {
+              "member_id": "member_6_20260408065644",
+              "member_name": "derese",
+              "amount": 10000.0,
+              "paid": false
+            }
+          ],
+          "lottery_selected": false
+        }
+      ],
+      "current_round": 0,
+      "cycle_number": 2,
+      "created_date": "2026-04-08 06:56:09"
     }
   },
   "members": {
@@ -136,6 +199,36 @@
           "total_contributed": 30000.0,
           "total_received": 30000.0,
           "joined_date": "2026-04-02 09:48:48"
+        }
+      }
+    },
+    "member_5_20260408065635": {
+      "id": "member_5_20260408065635",
+      "name": "dawit",
+      "phone": "098765",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260408065609": {
+          "has_received": false,
+          "received_round": null,
+          "total_contributed": 20000.0,
+          "total_received": 20000.0,
+          "joined_date": "2026-04-08 06:56:35"
+        }
+      }
+    },
+    "member_6_20260408065644": {
+      "id": "member_6_20260408065644",
+      "name": "derese",
+      "phone": "09876",
+      "email": "",
+      "group_memberships": {
+        "group_3_20260408065609": {
+          "has_received": false,
+          "received_round": null,
+          "total_contributed": 20000.0,
+          "total_received": 20000.0,
+          "joined_date": "2026-04-08 06:56:44"
         }
       }
     }
