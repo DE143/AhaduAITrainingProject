@@ -62,7 +62,7 @@ def basic_info(df: pd.DataFrame) -> None:
     print("DATASET OVERVIEW")
     print("=" * 80)
     print(f"Dataset Shape: {df.shape[0]:,} rows × {df.shape[1]} columns")
-    print(f"Memory Usage: {df.memory_usage(deep=True).sum() / 1024**2:.2f} MB")
+    print(f"Memory Usage: {df.memory_usage(deep=True).sum() / 1024**2:.2f} MB")   # :.2f formats the number to 2 decimal places
     
     print("\n" + "=" * 80)
     print("DATA TYPES")
