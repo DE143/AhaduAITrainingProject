@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "amount": 21000.0,
+    "category": "Salary",
+    "type": "income",
+    "date": "2026-04-02"
+  },
+  {
+    "amount": 10000.0,
+    "category": "Other",
+    "type": "expense",
+    "date": "2026-04-02"
+  },
+  {
+    "amount": 2000.0,
+    "category": "Other",
+    "type": "expense",
+    "date": "2026-04-02"
+  },
+  {
+    "amount": 1234.0,
+    "category": "Bills",
+    "type": "expense",
+    "date": "2026-04-02"
+  },
+  {
+    "amount": 3455.0,
+    "category": "Transport",
+    "type": "expense",
+    "date": "2026-04-02"
+  }
+]

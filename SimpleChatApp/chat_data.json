@@ -1,18 +1,1 @@
-{
-  "derese": [
-    {
-      "message": "hi almi",
-      "timestamp": "2026-04-02 14:16:12"
-    }
-  ],
-  "almi": [
-    {
-      "message": "hi dere",
-      "timestamp": "2026-04-02 14:17:00",
-      "reply_to": {
-        "user": "derese",
-        "message": "hi almi"
-      }
-    }
-  ]
-}
+{}
