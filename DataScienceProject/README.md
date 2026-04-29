@@ -52,6 +52,7 @@ DataScienceProject/
 │   └── cs-training.csv       # Credit scoring training dataset
 ├── notebooks/                 # Jupyter notebooks for analysis
 │   └── eda_analysis.ipynb    # Main EDA notebook
+    └── 01_data_loading_and_review.ipynb
 ├── src/                      # Python source code
 │   └── eda_utils.py          # Utility functions for EDA
 ├── outputs/                  # Generated plots and reports

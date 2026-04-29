@@ -24,9 +24,9 @@ def load_data(filepath: str) -> pd.DataFrame:
         DataFrame containing the credit scoring data
     """
     df = pd.read_csv(filepath)
-    # Remove or rename the unnamed index column if present
+    # Remove the unnamed index column if present
     if 'Unnamed: 0' in df.columns:
-        df = df.rename(columns={'Unnamed: 0': 'BorrowerID'})
+        df = df.drop(columns=['Unnamed: 0'])
     return df
 
 
@@ -332,6 +332,76 @@ def calculate_woe_iv(df: pd.DataFrame, feature: str, target: str = 'SeriousDlqin
         print("  - Suspicious (too good to be true, check for data leakage)")
     
     return grouped
+
+
+def impute_missing_values(df: pd.DataFrame, method: str = 'mean', 
+                         numerical_cols: Optional[List[str]] = None,
+                         column_methods: Optional[dict] = None) -> pd.DataFrame:
+    """
+    Impute missing values in numerical columns.
+    
+    Args:
+        df: Input DataFrame
+        method: Default imputation method ('mean', 'median', 'mode')
+        numerical_cols: List of numerical columns to impute. If None, auto-detect.
+        column_methods: Optional dict mapping column names to specific methods.
+                       e.g., {'MonthlyIncome': 'median', 'NumberOfDependents': 'mode'}
+        
+    Returns:
+        DataFrame with imputed values
+    """
+    df_imputed = df.copy()
+    
+    # Auto-detect numerical columns if not provided
+    if numerical_cols is None:
+        numerical_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+    
+    # Initialize column_methods if not provided
+    if column_methods is None:
+        column_methods = {}
+    
+    imputation_summary = []
+    
+    for col in numerical_cols:
+        missing_count = df_imputed[col].isnull().sum()
+        
+        if missing_count > 0:
+            # Use column-specific method if provided, otherwise use default method
+            impute_method = column_methods.get(col, method)
+            
+            if impute_method == 'mean':
+                fill_value = df_imputed[col].mean()
+            elif impute_method == 'median':
+                fill_value = df_imputed[col].median()
+            elif impute_method == 'mode':
+                fill_value = df_imputed[col].mode()[0]
+            else:
+                raise ValueError("Method must be 'mean', 'median', or 'mode'")
+            
+            # Use fillna without inplace to ensure it works on the copy
+            df_imputed[col] = df_imputed[col].fillna(fill_value)
+            
+            imputation_summary.append({
+                'Column': col,
+                'Missing_Count': missing_count,
+                'Imputation_Method': impute_method,
+                'Fill_Value': round(fill_value, 4)
+            })
+    
+    if imputation_summary:
+        print(f"\n{'='*80}")
+        print(f"MISSING VALUE IMPUTATION SUMMARY")
+        print(f"{'='*80}")
+        summary_df = pd.DataFrame(imputation_summary)
+        for _, row in summary_df.iterrows():
+            print(f"  {row['Column']:<45} Missing: {row['Missing_Count']:>6,}  →  {row['Imputation_Method']:>6} → {row['Fill_Value']:>10.4f}")
+        print(f"{'='*80}")
+        print(f"✓ Total columns imputed: {len(imputation_summary)}")
+        print(f"✓ Total missing values filled: {sum([x['Missing_Count'] for x in imputation_summary]):,}")
+    else:
+        print("\n✓ No missing values found. No imputation needed.")
+    
+    return df_imputed
 
 
 def statistical_test(df: pd.DataFrame, feature: str, target: str = 'SeriousDlqin2yrs') -> dict:
